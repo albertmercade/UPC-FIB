@@ -1,4 +1,4 @@
 # IA (Artificial Intelligence)
 Fall semester 2019-2020
 
-First two projects (out of three) and Innovation Project.
+Second laboratory project and Innovation Project.
