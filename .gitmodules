@@ -1,0 +1,3 @@
+[submodule "PROP/Compressor"]
+	path = PROP/Compressor
+	url = git@github.com:Leixb/UPC-PROP_Compressor.git
