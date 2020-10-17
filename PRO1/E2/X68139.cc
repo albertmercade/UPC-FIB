@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+void write_rule(const string& s, int W) {
+    // insert here your implementation, it must be recursive.
+    cout << s;
+    if (W-s.length()>=s.length()) write_rule(s,W-s.length());
+}
+
+
+int main() {
+    string s;
+    int W;
+    while (cin >> s >> W) {
+        write_rule(s, W);
+        cout << endl;
+    }
+}
