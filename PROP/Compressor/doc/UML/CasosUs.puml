@@ -1,0 +1,39 @@
+@startuml
+
+left to right direction
+
+title Diagrama de Casos d'ús
+
+rectangle "Compressor" {
+    usecase Com as "Comprimir
+    ==
+    Demana algoritme, nom del fitxer/directori a comprimir,
+    nom del fitxer destí i qualitat de compressió
+    en el cas de JPEG"
+    usecase Des as "Descomprimir
+    ==
+    Demana nom del fitxer comprimit
+    i del fitxer/directori destí"
+    usecase (Automàtic) as Auto
+    usecase (LZ78)
+    usecase (LZSS)
+    usecase (LZW)
+    usecase (JPEG)
+    usecase (Fitxer)
+    usecase (Directori)
+}
+
+:Usuari:
+
+Usuari --> Com
+Usuari --> Des
+Com --> (Fitxer)
+Com --> (Directori)
+(Fitxer) --> Auto
+(Fitxer) --> (LZ78)
+(Fitxer) --> (LZSS)
+(Fitxer) --> (LZW)
+(Fitxer) --> (JPEG)
+(Directori) --> Auto
+
+@enduml

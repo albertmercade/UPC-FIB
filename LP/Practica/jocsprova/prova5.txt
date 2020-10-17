@@ -1,0 +1,41 @@
+P1: PREGUNTA
+Quants adults viuen a casa teva?
+R1: RESPOSTA
+0: zero ;
+1: un ;
+2: dos ;
+3: més de dos ;
+I1: ITEM
+P1 -> R1
+A: ENQUESTA
+I1
+P2: PREGUNTA
+En quina franja d'edat estas?
+R2: RESPOSTA
+0: 0 a 18 anys ;
+1: 19 a 30 anys ;
+3: 31 a 50 anys ;
+4: 51 anys o més ;
+I2: ITEM
+P2 -> R2
+B: ENQUESTA
+I2
+P3: PREGUNTA
+Quants germans tens?
+I3: ITEM
+P3 -> R1
+C: ENQUESTA
+I3
+P4: PREGUNTA
+Qui creus que guanyaria unes hipotètiques eleccions generals?
+R4: RESPOSTA
+0: PP ;
+1: PSOE ;
+2: UP ;
+3: Cs ;
+4: Altres;
+I4: ITEM
+P4 -> R4
+D: ENQUESTA
+I4
+END

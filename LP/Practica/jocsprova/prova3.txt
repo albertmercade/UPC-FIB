@@ -1,0 +1,41 @@
+P1: PREGUNTA
+Qui et sembla el millor jugador del món?
+R1: RESPOSTA
+0: Messi ;
+1: Cristiano ;
+2: Mbappé ;
+3: Altres ;
+I1: ITEM
+P1 -> R1
+P2: PREGUNTA
+Qui creus que guanyarà el mundial de Qatar 2022?
+R2: RESPOSTA
+0: França ;
+1: Espanya ;
+2: Argentina ;
+3: Altres ;
+I2: ITEM
+P2 -> R2
+P3: PREGUNTA
+De quin equip de fútbol ets?
+R3: RESPOSTA
+1: FC Barcelona ;
+2: RCD Espanyol ;
+3: Girona CF ;
+4: Altres ;
+I3: ITEM
+P3 -> R3
+E: ENQUESTA
+I1 I2 I3
+P4: PREGUNTA
+En quina franja d'edat estas?
+R4: RESPOSTA
+0: 0 a 18 anys ;
+1: 19 a 30 anys ;
+3: 31 a 50 anys ;
+4: 51 anys o més ;
+I4: ITEM
+P4 -> R4
+M: ENQUESTA
+I4
+END

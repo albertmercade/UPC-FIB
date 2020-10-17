@@ -1,0 +1,52 @@
+; Sun Dec 15 22:46:12 CET 2019
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([SBCRecomendacionLibros_Class25] of  Libro
+
+	(autor [SBCRecomendacionLibros_Class26])
+	(generos
+		[SBCRecomendacionLibros_Class27]
+		[SBCRecomendacionLibros_Class28])
+	(idLibro "1")
+	(nPag 328)
+	(publicacion 2010)
+	(titulo "Buenos dias")
+	(url "www.google.com"))
+
+([SBCRecomendacionLibros_Class26] of  Autor
+
+	(idAutor "1")
+	(nombreAutor "Paco")
+	(sexo male))
+
+([SBCRecomendacionLibros_Class27] of  Genero
+
+	(generosSimilares [SBCRecomendacionLibros_Class28])
+	(nombreGenero "ciencia ficcion"))
+
+([SBCRecomendacionLibros_Class28] of  Genero
+
+	(generosSimilares [SBCRecomendacionLibros_Class27])
+	(nombreGenero "aventura"))
+
+([SBCRecomendacionLibros_Class30] of  Perfil
+
+	(psicologico C)
+	(rangoEdad Juvenil))
+
+([SBCRecomendacionLibros_Class31] of  Perfil
+
+	(psicologico D)
+	(rangoEdad Adulto))
+
+([SBCRecomendacionLibros_Class32] of  Perfil
+
+	(psicologico A)
+	(rangoEdad Infantil))
+
+([SBCRecomendacionLibros_Class33] of  Recomendacion
+
+	(gradoRecomendacion 0)
+	(libro [SBCRecomendacionLibros_Class25]))
