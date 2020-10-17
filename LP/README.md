@@ -1,7 +1,4 @@
-# FIB-LP
-Quatrimestre tardor curs 2019-2020
+# LP (Programming Languages)
+Fall semester 2019-2020
 
-En aquest repositori trobareu:
-* Alguns problemes de LP del Jutge (Haskell i Python)
-* Treball dirigit (en el meu cas de Crystal)
-* Pràctica de compiladors i *chatbot* de Telegram
+Some Jutge problems solved (*Haskell* and *Python*), directed project (*Crystal* in my case) and compiler and Telegram chatbot project.
